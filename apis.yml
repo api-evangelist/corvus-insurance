@@ -1,8 +1,14 @@
 aid: corvus-insurance
 name: Corvus Insurance
-description: Corvus Insurance is a company surfaced as a portfolio company of insight-partners, obvious-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Corvus Insurance — now operating as Corvus by Travelers — is a cyber-insurance
+  managing general agency and insurtech company that pairs property and casualty underwriting
+  with security-focused data science. It offers Smart Cyber Insurance and Smart Tech Errors
+  & Omissions coverage, a Cyber Risk Dashboard that continuously scans policyholders' external
+  attack surface for vulnerabilities and delivers threat intelligence and remediation guidance,
+  24/7 incident response and claims support, and broker tooling for collaborative quoting and
+  renewal management. Founded in 2017 and backed by Insight Partners and Obvious Ventures, Corvus
+  was acquired by Travelers in 2024 and now operates as a Travelers company. The public site
+  exposes marketing, broker resources, and a broker portal, but no public developer API program.
 url: https://raw.githubusercontent.com/api-evangelist/corvus-insurance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +17,29 @@ x-backed-by:
 - obvious-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.corvusinsurance.com/globalassets/logos/corvus-full-color.svg
 tags:
 - Company
+- Insurance
+- Cyber Insurance
+- Cyber Risk
+- Security
+- Insurtech
+- Underwriting
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.corvusinsurance.com/
+- type: Blog
+  url: https://www.corvusinsurance.com/resources
+- type: Support
+  url: https://www.corvusinsurance.com/contact-us
+- type: Login
+  url: https://travelers.corvusinsurance.com/
+- type: TermsOfService
+  url: https://www.travelers.com/about-travelers/legal
+- type: PrivacyPolicy
+  url: https://www.travelers.com/about-travelers/privacy-statements
+- type: DomainSecurity
+  url: security/corvus-insurance-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
